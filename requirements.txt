@@ -2,6 +2,8 @@
 #    uv pip compile requirements.in -o requirements.txt
 iniconfig==2.3.0
     # via pytest
+numpy==2.4.3
+    # via -r requirements.in
 packaging==26.0
     # via pytest
 pluggy==1.6.0
